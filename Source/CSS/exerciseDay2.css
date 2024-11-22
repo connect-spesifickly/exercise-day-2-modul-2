@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+}
+/* Nav bar */
+.header {
+  position: fixed;
+  position: sticky;
+  top: 0;
+  display: flex;
+  height: 90px;
+  background-color: rgb(17, 24, 32);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3vw;
+  z-index: 99;
+}
+.header a img {
+  margin-bottom: -1.5px;
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 974.13px;
+  height: 36px;
+  align-items: center;
+}
+.navBar a {
+  font-family: "Maison Neue Demi";
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navBar a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* 3 Negara */
+.img3negara {
+  position: relative;
+  height: auto;
+  width: 100vw;
+  margin: 0;
+}
+.imgBackground {
+  width: 100vw;
+}
+.imgBackground img {
+  width: 100vw;
+}
+.positioning {
+  position: absolute;
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  align-items: center;
+  padding-left: 10%;
+}
+.positioning h1 {
+  font-size: 3.45vw;
+  width: 634.13px;
+  color: white;
+  font-family: "Maison Neue Extended Bold";
+  margin: 0;
+}
+/* Kenali sampai skala */
+.kenaliKami {
+  width: 100vw;
+  background-color: rgb(17, 24, 32);
+  height: 230px;
+  margin-top: -4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 17px;
+}
+.kenaliKami h2,
+a {
+  color: white;
+}
+@media screen and (max-width: 769px) {
+  .kenaliKami h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .kenaliKami h2 {
+    font-size: 3.05vw;
+  }
+}
+.kenaliKami h2 {
+  text-align: center;
+  font-family: "Maison Neue Extended Bold";
+  margin: 0 px 0px 0px;
+}
+.gabung {
+  padding: 12px 24px;
+  background-color: rgb(0, 136, 12);
+  border-radius: 96px;
+  font-family: "Maison Neue Demi";
+  text-decoration: none;
+  margin-top: -14px;
+}
+.gabung span {
+  color: rgb(255, 255, 255);
+}
+
+/* SVG Part */
+.sfv {
+  position: relative;
+}
+.backgroundSVG1 {
+  height: 20vh;
+  width: 100vw;
+  background-color: black;
+}
+.backgroundSVG2 {
+  margin-top: -100px;
+  position: absolute;
+  height: 46vh;
+  width: 100vw;
+  background-color: white;
+  border-top-left-radius: 96px;
+  border-top-right-radius: 96px;
+}
+.inputSVG {
+  margin-top: -155px;
+  position: absolute;
+  height: 54vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.svg1 {
+  padding: 0 1.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 54vh;
+  width: 18vw;
+}
+.svg1 img {
+  opacity: 2;
+  margin-top: -21px;
+  width: 115px;
+  height: 186px;
+}
+.svg1 h3 {
+  font-family: "Maison Neue Bold";
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+.svg1 p {
+  font-family: "Maison Neue Book";
+  text-align: center;
+  font-size: 16px;
+  margin: 0;
+}
+/* Skala Parth */
+.skalaKami {
+  position: static;
+  margin-top: 232px;
+  width: 100vw;
+  background-color: white;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 17px;
+}
+.skalaKami h2,
+a {
+  color: black;
+}
+.skalaKami h2 {
+  text-align: center;
+  font-family: "Maison Neue Extended Bold";
+  margin-bottom: 42.5px;
+}
+.gabung2 {
+  padding: 12px 24px;
+  background-color: rgb(0, 136, 12);
+  border-radius: 96px;
+  font-family: "Maison Neue Demi";
+  text-decoration: none;
+  margin-top: -28px;
+}
+.gabung2 span {
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 768.99px) {
+  .skalaKami h2 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .skalaKami h2 {
+    font-size: 3.5vw;
+  }
+}
