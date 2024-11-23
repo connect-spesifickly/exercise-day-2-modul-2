@@ -167,7 +167,7 @@ a {
 /* Skala Parth */
 .skalaKami {
   position: static;
-  margin-top: 232px;
+  margin-top: 267px;
   width: 100vw;
   background-color: white;
   height: 230px;
@@ -175,7 +175,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 17px;
+  padding-top: 3px;
 }
 .skalaKami h2,
 a {
@@ -187,7 +187,7 @@ a {
   margin-bottom: 42.5px;
 }
 .gabung2 {
-  padding: 12px 24px;
+  padding: 10px 24px;
   background-color: rgb(0, 136, 12);
   border-radius: 96px;
   font-family: "Maison Neue Demi";
@@ -204,6 +204,64 @@ a {
 }
 @media screen and (min-width: 769px) {
   .skalaKami h2 {
-    font-size: 3.5vw;
+    font-size: 3.05vw;
   }
+}
+/* Skala konten */
+.skalaKonten {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1r);
+  max-width: 100vw;
+  height: 359px;
+  background-color: rgb(255, 255, 255);
+  padding: 9.5vh 10vw;
+  column-gap: 40px;
+}
+.kontenScale {
+  border-radius: 40px;
+  width: 17.8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -4px;
+}
+.des1 {
+  width: 12vw;
+  margin-top: -2px;
+}
+.des1 h3 {
+  font-family: "Maison Neue Extended Extra Bold";
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.des1 p {
+  font-family: "Maison Neue Book";
+  font-size: 16px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.kontenScale img {
+  position: relative;
+  width: 18vw;
+  height: auto;
+  top: -80px;
+}
+#one {
+  background-color: rgb(124, 204, 108);
+  box-shadow: 0px 0px 30px rgb(124, 204, 108);
+}
+#two {
+  background-color: rgb(212, 139, 200);
+  box-shadow: 0px 0px 30px rgb(212, 139, 200);
+}
+#three {
+  background-color: rgb(255, 174, 98);
+  box-shadow: 0px 0px 30px rgb(255, 174, 98);
+}
+#four {
+  background-color: rgb(73, 200, 227);
+  box-shadow: 0px 0px 30px rgb(73, 200, 227);
 }
